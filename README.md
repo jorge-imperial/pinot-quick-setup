@@ -30,6 +30,7 @@ ln -s apache-pinot-$PINOT_VERSION-bin apache-pinot
 Make sure you have Java version 11.0 installed as the default and run the following script to start a cluster. 
 
 ```
+chmod +x run-pinot.sh
 ./run-pinot.sh
 ```
 You will start a Pinot cluster consisting on
